@@ -74,7 +74,7 @@ function MobileNavbar() {
                 </SignOutButton>
               </>
             ) : (
-              <SignInButton mode="modal">
+              <SignInButton >
                 <Button variant="default" className="w-full">
                   Sign In
                 </Button>
